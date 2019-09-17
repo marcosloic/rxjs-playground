@@ -1,0 +1,10 @@
+.vehicleTable {
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    margin: 10px auto;
+    align-content: center;
+    @media screen and (max-width: 992px) {
+        width: 95%;
+    }
+}

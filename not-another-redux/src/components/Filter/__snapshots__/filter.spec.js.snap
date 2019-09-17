@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The filter component Matches the snapshot 1`] = `
+<div
+  className="filter"
+>
+  <h5
+    className="title"
+  >
+    
+  </h5>
+  <select
+    defaultValue="default"
+    onChange={[Function]}
+  >
+    <option
+      disabled={true}
+      value="default"
+    >
+      Pick some 
+    </option>
+  </select>
+</div>
+`;

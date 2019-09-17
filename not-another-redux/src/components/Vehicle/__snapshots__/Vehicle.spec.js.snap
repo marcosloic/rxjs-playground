@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Vehicle component Matches the snapshot 1`] = `
+<article
+  className="vehicle"
+>
+  <img
+    alt="brand"
+    src="img"
+  />
+  <div
+    className="content"
+  >
+    <p>
+      <b>
+        Brand:
+      </b>
+       
+      brand
+    </p>
+    <p>
+      <b>
+        Type:
+      </b>
+       
+      type
+    </p>
+    <p>
+      <b>
+        Available in:
+      </b>
+       
+      <span
+        className="colorTag"
+        style={
+          Object {
+            "backgroundColor": "colors",
+          }
+        }
+      />
+    </p>
+  </div>
+</article>
+`;

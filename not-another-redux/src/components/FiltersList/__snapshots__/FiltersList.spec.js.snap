@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The FiltersList component Matches the snapshot 1`] = `
+<div
+  className="filtersList"
+>
+  <div
+    className="list"
+  >
+    <div
+      className="filter"
+    >
+      <h5
+        className="title"
+      >
+        brand
+      </h5>
+      <select
+        defaultValue="default"
+        onChange={[Function]}
+      >
+        <option
+          disabled={true}
+          value="default"
+        >
+          Pick some brand
+        </option>
+        <option
+          value="a"
+        >
+          a
+        </option>
+        <option
+          value="b"
+        >
+          b
+        </option>
+        <option
+          value="d"
+        >
+          d
+        </option>
+        <option
+          value="n"
+        >
+          n
+        </option>
+        <option
+          value="r"
+        >
+          r
+        </option>
+      </select>
+    </div>
+    <div
+      className="filter"
+    >
+      <h5
+        className="title"
+      >
+        colors
+      </h5>
+      <select
+        defaultValue="default"
+        onChange={[Function]}
+      >
+        <option
+          disabled={true}
+          value="default"
+        >
+          Pick some colors
+        </option>
+        <option
+          value="e"
+        >
+          e
+        </option>
+        <option
+          value="h"
+        >
+          h
+        </option>
+        <option
+          value="i"
+        >
+          i
+        </option>
+        <option
+          value="t"
+        >
+          t
+        </option>
+        <option
+          value="w"
+        >
+          w
+        </option>
+      </select>
+    </div>
+  </div>
+  <button
+    className="button"
+    onClick={[Function]}
+  >
+    Reset filters
+  </button>
+</div>
+`;

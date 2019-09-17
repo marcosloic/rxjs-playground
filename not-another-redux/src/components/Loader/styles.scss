@@ -1,0 +1,20 @@
+// Found here https://codepen.io/veganben/pen/GAgsH
+
+.loader {
+    height: 0;
+    width: 0;
+    padding: 15px;
+    border: 6px solid #ccc;
+    border-right-color: #888;
+    border-radius: 22px;
+    -webkit-animation: rotate 1s infinite linear;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+@keyframes rotate {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}

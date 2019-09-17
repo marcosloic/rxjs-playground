@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Vehicle component Matches the snapshot 1`] = `
+<div
+  className="vehicleTable"
+>
+  <article
+    className="vehicle"
+  >
+    <img />
+    <div
+      className="content"
+    >
+      <p>
+        <b>
+          Brand:
+        </b>
+         
+      </p>
+      <p>
+        <b>
+          Type:
+        </b>
+         
+      </p>
+      <p>
+        <b>
+          Available in:
+        </b>
+         
+      </p>
+    </div>
+  </article>
+  <article
+    className="vehicle"
+  >
+    <img />
+    <div
+      className="content"
+    >
+      <p>
+        <b>
+          Brand:
+        </b>
+         
+      </p>
+      <p>
+        <b>
+          Type:
+        </b>
+         
+      </p>
+      <p>
+        <b>
+          Available in:
+        </b>
+         
+      </p>
+    </div>
+  </article>
+</div>
+`;

@@ -1,0 +1,9 @@
+.filtersList {
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+
+    .list {
+        margin-bottom: 10px;
+    }
+}
