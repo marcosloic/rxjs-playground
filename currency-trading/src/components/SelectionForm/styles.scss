@@ -1,0 +1,38 @@
+.selectionForm {
+    font-size: 2rem;
+    line-height: 2.7rem;
+
+    select,
+    input {
+        border: none;
+        background: transparent;
+        font-family: inherit;
+        font-size: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+        display: inline-block;
+        padding: 0;
+        margin: 0 5px;
+        color: #b14943;
+        cursor: pointer;
+        border-bottom: 1px dashed #b14943;
+    }
+    select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        text-align: center;
+        text-align-last: center;
+    }
+    input[type='number'] {
+        width: 7rem;
+        text-align: center;
+        ::-webkit-inner-spin-button,
+        ::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+    }
+    .button {
+        padding-top: 1rem;
+    }
+}
