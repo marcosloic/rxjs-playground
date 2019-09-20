@@ -38,6 +38,11 @@ const getCurrencyExchangeRate = (
     return query(url, normaliseCurrencyExchangeRate);
 };
 
+/*
+This could have been a class, but you can't implement an interface with static methods,
+and I didn't see any reason to declare the two functions on the member, so this is a compromise that lets us
+get the type validation
+ */
 export const Alphavantage: ForexQuery = {
     getDailyTimeSeries,
     getCurrencyExchangeRate

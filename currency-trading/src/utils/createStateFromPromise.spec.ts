@@ -7,6 +7,10 @@ describe('The createStateFromPromise function', () => {
     beforeEach(() => {
         scheduler = new TestScheduler((a, b) => expect(a).toEqual(b));
     });
+    /*
+    This test suite is written in a more regular way instead of using the rxjs testScheduler, which doesn't
+    work well when creating sequences with a mix of promises in it. They aren't as elegant but they work.
+     */
 
     describe('When created with a base request, a loading intent and argument streams', () => {
         describe('When the loading intent emits', () => {
@@ -40,7 +44,7 @@ describe('The createStateFromPromise function', () => {
                     secondArg$,
                     loadingIntent$
                 );
-                const responses = [];
+                const responses: any[] = [];
                 result.subscribe(data => {
                     responses.push(data);
                 });
@@ -66,7 +70,7 @@ describe('The createStateFromPromise function', () => {
                     secondArg$,
                     loadingIntent$
                 );
-                const responses = [];
+                const responses: any[] = [];
                 result.subscribe(data => {
                     responses.push(data);
                     if (responses.length === 2) {
@@ -94,7 +98,7 @@ describe('The createStateFromPromise function', () => {
                     secondArg$,
                     loadingIntent$
                 );
-                const responses = [];
+                const responses: any[] = [];
                 result.subscribe(data => {
                     responses.push(data);
                     if (responses.length === 2) {
