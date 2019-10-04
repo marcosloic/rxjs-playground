@@ -1,0 +1,36 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-size: 2rem;
+
+    .button {
+        button {
+            line-height: 3;
+            text-transform: uppercase;
+            cursor: pointer;
+            position: relative;
+            background: #76c3bd;
+            color: #fff;
+            padding: 0 1em 0 0;
+            font-size: 40%;
+            font-weight: bold;
+            letter-spacing: 3px;
+            &:hover,
+            &:active {
+                background: #69b1a9;
+            }
+            &:hover:before {
+                background: #58a199;
+            }
+            &:before {
+                content: '🚀';
+                color: #fff;
+                float: left;
+                padding: 0 0.7em;
+                margin: 0 0.8em 0 0;
+                background: #69b1a9;
+            }
+        }
+    }
+}
